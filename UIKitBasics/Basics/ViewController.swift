@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var password: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func logInButtonPressed(_ sender: UIButton) {
+        print("LogIn Button Pressed!!!!!")
+        print("Email: \(email.text ?? "") \nPassword: \(password.text ?? "")")
+    }
+    
 }
 
