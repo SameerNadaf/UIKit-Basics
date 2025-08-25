@@ -1,2 +1,2 @@
 # UIKit Basics
-### Learning basics and fundamentals of UIKit
+Learning basics and fundamentals of UIKit
