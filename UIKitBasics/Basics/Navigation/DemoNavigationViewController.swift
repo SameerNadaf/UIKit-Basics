@@ -11,6 +11,7 @@ class DemoNavigationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Navigation Controller"
+        view.backgroundColor = .white
         
         let button = UIButton(type: .system)
         button.setTitle("Next View", for: .normal)
